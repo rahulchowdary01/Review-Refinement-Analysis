@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+        <title>Home</title>
+    </head>
+    <body>
+        <center>
+        <div class="main-content">
+            <div class="concept concept-two">
+                <div class="hover">
+                      <h1>R</h1>
+                </div>
+                <div class="hover">
+                      <h1>e</h1>
+                </div>
+                <div class="hover">
+                      <h1>f</h1>
+                </div>
+                <div class="hover">
+                      <h1>i</h1>
+                </div>
+                <div class="hover">
+                      <h1>n</h1>
+                </div>
+                <div class="hover">
+                      <h1>e</h1>
+                </div>
+                <div class="hover">
+                      <h1>L</h1>
+                </div>
+                <div class="hover">
+                      <h1>a</h1>
+                </div>
+                <div class="hover">
+                      <h1>b</h1>
+                </div>
+              </div>
+            </div>  
+        <div class="loader">
+            <span></span>
+        </div> 
+        <p>Let's get Started</p>
+        <h2>Please,Upload your reviews for refinement</h2>
+        <form method="POST" class="form" enctype="multipart/form-data">
+        <span class="form-title">Upload your file</span>
+        <p class="form-paragraph">
+            File should consists text any type </p>
+         <label for="file-input" class="drop-container">
+         <span class="drop-title">Drop files here</span>
+        {{ form.csrf_token }}
+        {{ form.file.label }} {{ form.file() }}
+        <br>
+        </label> 
+        <button type="submit" value="Upload">
+               Submit
+        </button>
+        </form>
+        </center>
+    </body>
+</html>

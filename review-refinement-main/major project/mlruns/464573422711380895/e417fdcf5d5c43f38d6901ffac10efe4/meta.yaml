@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rahulchowdary/major%20project/mlruns/464573422711380895/e417fdcf5d5c43f38d6901ffac10efe4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '464573422711380895'
+lifecycle_stage: active
+run_id: e417fdcf5d5c43f38d6901ffac10efe4
+run_name: shivering-hen-909
+run_uuid: e417fdcf5d5c43f38d6901ffac10efe4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678182147933
+status: 1
+tags: []
+user_id: rahulchowdary
